@@ -1,5 +1,6 @@
 require "optparse"
 require_relative 'prime_generator'
+require_relative 'table_generator'
 
 class Prime
   
@@ -20,7 +21,8 @@ class Prime
    
   def run
     prime_numbers = PrimeGenerator.new.generate(@options[:amount])
-    puts prime_numbers
+    table = TableGenerator.new(prime_numbers).show
+    puts table
   end
   
 end
