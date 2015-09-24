@@ -8,7 +8,7 @@ class Prime
     @options = {}
     
     OptionParser.new do |opts|
-        opts.banner = "Usage: --count Amount of prime numbers"
+        opts.banner = "Usage: #$0 --count Amount of prime numbers"
         opts.on "-c", "--count INTEGER", "Amount of prime numbers to multiply" do |number|
         @options[:amount] = number.to_i
       end
