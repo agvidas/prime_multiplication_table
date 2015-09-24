@@ -27,9 +27,12 @@
      2 |  4  6
      3 |  6  9 
      
+     
+Usage:
+
   
 ```
-    Usage: bin/prime --count Amount of prime numbers
-    -c, --count INTEGER              Amount of prime numbers to multiply
-    -h, --help                       Shows usage                      
+	Usage: bin/prime --count Amount of prime numbers
+	-c, --count INTEGER              Amount of prime numbers to multiply
+	-h, --help                       Shows usage                      
 ```
